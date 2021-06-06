@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/hptxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30000/30000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/money_3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:text="머니 : 0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/riverstone_3"
+        android:src="@drawable/mon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/da3_1"
+
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="공격력+200            가격 100원"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/da3_2"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="공격력+300                가격 200원" />
+
+        <TextView
+            android:id="@+id/ad3_3"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="공격력+400                 가격 300원" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/buyBtn3"
+            android:enabled="false"
+            android:text="구매"
+
+            android:layout_width="130dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/buyBtn3_2"
+            android:enabled="false"
+            android:text="구매"
+
+            android:layout_width="130dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/buyBtn3_3"
+            android:enabled="false"
+            android:text="구매"
+
+            android:layout_width="130dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:enabled="false"
+            android:src="@drawable/mang"
+            android:id="@+id/item3_1"
+            android:layout_width="130dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:enabled="false"
+            android:src="@drawable/gun"
+            android:id="@+id/item3_2"
+            android:layout_width="130dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:enabled="false"
+            android:src="@drawable/sword"
+            android:id="@+id/item3_3"
+            android:layout_width="130dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <RelativeLayout
+    android:gravity="right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:enabled="false"
+        android:id="@+id/next3"
+        android:text="다음으로"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="로그인 해 주십시오"
+        android:textSize="45dp"
+        />
+    <EditText
+        android:hint="id입력"
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:hint="password입력"
+        android:password="true"
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="게스트 로그인"
+                android:id="@+id/Glogin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:text="로그인"
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
